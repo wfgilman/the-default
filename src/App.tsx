@@ -1,15 +1,15 @@
 import React from 'react';
+import Layout from './components/Layout'
+import DesktopContainer from './components/DesktopContainer'
 import logo from './logo.svg';
 import './App.css';
+import 'semantic-ui-css/semantic.min.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello from V2</h1>
-      </header>
-    </div>
+    <Layout>
+      <DesktopContainer />
+    </Layout>
   );
 }
 
