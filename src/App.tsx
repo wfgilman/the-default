@@ -1,15 +1,14 @@
-import React from 'react';
-import Layout from './components/Layout'
-import DesktopContainer from './components/DesktopContainer'
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Heading from './components/Heading'
+import SidebarMenu from './components/Menu'
 import 'semantic-ui-css/semantic.min.css'
 
 function App() {
   return (
-    <Layout>
-      <DesktopContainer />
-    </Layout>
+    <div>
+      <SidebarMenu />
+      <Heading />
+    </div>
   );
 }
 
